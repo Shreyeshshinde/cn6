@@ -1,0 +1,44 @@
+.home-container {
+  background: linear-gradient(135deg, #f6f3ff, #e9f3ff);
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px 50px;
+}
+
+.text-content {
+  max-width: 40%;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 700;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin-top: 15px;
+  color: #555;
+}
+
+.hero-image {
+  width: 420px;
+  border-radius: 20px;
+  transition: transform 0.4s;
+}
+
+.hero-image:hover {
+  transform: scale(1.05);
+}
+
+.explore-btn {
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+}
